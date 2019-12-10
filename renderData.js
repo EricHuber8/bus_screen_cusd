@@ -132,7 +132,7 @@ function renderTimetable() {
 
 // when the document is loaded render the timetable
 
-setTimeout($(document).ready(renderTimetable), 100)
+setTimeout($(document).ready(renderTimetable), 10)
 
 
 function renderStops(currStop) {
